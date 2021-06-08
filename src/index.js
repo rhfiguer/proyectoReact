@@ -4,10 +4,10 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ProyectoReact from './components/ProyectoReact';
+import App from './components/App';
 
 //--------------------------------------------------------
 // We render
 //--------------------------------------------------------
 
-ReactDOM.render(<ProyectoReact/>, document.getElementById('proyecto'));
+ReactDOM.render(<App/>, document.getElementById('proyecto'));
