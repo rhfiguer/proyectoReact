@@ -9,6 +9,7 @@ import Search from './Search';
 import Categories from './Categories';
 import Carousel from './Carousel';
 import CarouselItem from './CarouselItem';
+import Footer from './Footer';
 
 
 //--------------------------------------------------------
@@ -38,9 +39,10 @@ const App = () => (
 
                 <CarouselItem>
                 </CarouselItem>
-                
+
             </Carousel>
         </Categories>
+        <Footer/>
        
             
     </div>

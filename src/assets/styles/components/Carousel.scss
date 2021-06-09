@@ -6,6 +6,7 @@
   }
   
   .carousel__container {
+    display: flex;
     transition: 450ms -webkit-transform;
     transition: 450ms transform;
     transition: 450ms transform, 450ms -webkit-transform;
